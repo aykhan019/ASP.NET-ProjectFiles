@@ -1,0 +1,9 @@
+FRONTEND : https://templates.envytheme.com/zust/default/index.html
+
+1) For hosting exam project (as well as other asp.net projects) have a look at https://dotnet.microsoft.com/en-us/apps/aspnet/hosting
+
+2) Use Code First Database model. Investigate for the structure after having a look at https://templates.envytheme.com/zust/default/index.html (which is frontend for project)
+
+3) Alert university for the progress (send github link for them to see the progress if the project is not yet finisihed)
+
+4) forgot-password + login + register have their own doctype
