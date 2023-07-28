@@ -1,0 +1,79 @@
+New Follower
+Title: "You have a new follower!"
+Description: "Great news! @username started following you on Instagram. Check out their profile and consider following them back."
+
+Likes
+Title: "Your post received a like!"
+Description: "Congratulations! Your latest post just got a like from @username. Keep up the good work and keep those likes coming."
+
+Comments
+Title: "New comment on your post!"
+Description: "@username left a comment on your post. Take a look and join the conversation."
+
+Mentions
+Title: "You were mentioned in a post!"
+Description: "@username mentioned you in their latest post. See what they shared and leave a comment."
+
+Direct Messages
+Title: "New direct message received!"
+Description: "You've received a direct message from @username. Open the message to see what they sent."
+
+Story Views
+Title: "Your story got views!"
+Description: "Your story was viewed by @username and others. Keep sharing interesting moments to engage your audience."
+
+Live Video
+Title: "Live video started!"
+Description: "@username has started a live video. Tap to join the live stream and interact with them in real time."
+
+Tagged Photos
+Title: "You were tagged in a photo!"
+Description: "You've been tagged in a photo by @username. Take a look at the post and share it with your followers."
+
+IGTV Video Updates
+Title: "New IGTV video uploaded!"
+Description: "@username just uploaded a new IGTV video. Watch it now and leave a like or comment."
+
+Instagram Activity
+Title: "Activity from people you follow"
+Description: "Stay up to date with your favorite accounts! @username1 liked your photo, @username2 commented on a post, and @username3 started following you."
+
+Tagged in a Story
+Title: "You were tagged in a story!"
+Description: "@username mentioned you in their story. Swipe up to view the tagged content."
+
+Trending Hashtags
+Title: "Discover trending hashtags!"
+Description: "Explore the latest trending hashtags on Instagram and join the conversation. Stay relevant and engage with the community."
+
+New Post from Following
+Title: "New post from your favorite account!"
+Description: "@username just shared a new post. Don't miss out on their latest updates. Check it out now!"
+
+Explore Page Recommendation
+Title: "Explore new content!"
+Description: "Discover new posts and accounts tailored to your interests. Visit the Explore page and find fresh content to engage with."
+
+Profile Activity
+Title: "Activity on your profile"
+Description: "See who recently liked or commented on your posts. Stay connected with your followers and engage with their interactions."
+
+Reminder: Stories Expiring Soon
+Title: "Don't miss out on expiring stories!"
+Description: "Some of the stories you haven't viewed yet are expiring soon. Open Instagram to catch up on the latest updates."
+
+Highlights Update
+Title: "New highlights added!"
+Description: "@username added new highlights to their profile. Explore their featured moments and stories."
+
+Verified Account Followed You
+Title: "Verified account now following you!"
+Description: "You've gained a new follower, and it's a verified account! Check out their profile and feel proud of your growing audience."
+
+Sponsored Content
+Title: "Discover sponsored content"
+Description: "Explore sponsored posts from brands and creators you might be interested in. Find new products, services, and inspirations."
+
+Account Anniversary
+Title: "Happy anniversary on Instagram!"
+Description: "Congratulations! It's been a year since you joined Instagram. Reflect on your journey and thank your followers for their support."

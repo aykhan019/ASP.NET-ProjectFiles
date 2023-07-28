@@ -1,0 +1,15 @@
+What will be left on navbar:
+
+1) News feed
+2) Notifications
+3) Messages
+4) Friends
+5) Login
+6) Register
+
+May be left
+1) Events. Make it static. But make it possible to add event
+2) Show Birthdays
+3) Show Videos
+4) Groups
+

@@ -1,0 +1,17 @@
+0) https://templates.envytheme.com/zust/default/index.html
+
+1)Proyekte Identity qurashdirmaq
+
+2) Userlerin online olub olmamasini temin etmek ve friend meseleleri
+	
+3) Profil sehifesinin butun configurasiyalari,
+post paylashmaq , postu tenzimlemek
+posta friendlerden tag ede bilmek.
+ve postu paylashan zaman butun
+dostlara bildirim gonderilsin.
+
+4) Chat meselesi
+
+5)Static groups qoshulmaq
+group daxil olanda 
+postlari gormek imkani
