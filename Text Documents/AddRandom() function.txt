@@ -1,0 +1,113 @@
+      //private async Task addRandom()
+        //{
+        //    var random = new Random();
+        //    var list = await _userService.GetAllUsersAsync();
+
+        //    foreach (var user in list)
+        //    {
+        //        var allUsers = list.Where(u => u.Id != user.Id).ToList();
+        //        var userCount = random.Next(0, allUsers.Count());
+        //        var pendingRequestCount = (int)(userCount * 0.07);
+        //        var friendCount = userCount - pendingRequestCount;
+
+        //        var users = allUsers.ToList().GetRandomElements(userCount);
+
+        //        for (int i = 0; i < friendCount; i++)
+        //        {
+        //            var friendToSendRequest = users[i];
+
+        //            var requestDate = GenerateRandomDate(new DateTime(2023, 1, 1));
+
+        //            var fr = new FriendRequest()
+        //            {
+        //                Id = Guid.NewGuid().ToString(),
+        //                SenderId = user.Id,
+        //                ReceiverId = friendToSendRequest.Id,
+        //                RequestDate = GenerateRandomDate(new DateTime(2023, 1, 1)),
+        //                Status = Status.Accepted,
+        //            };
+
+        //            await _friendRequestService.AddAsync(fr);
+
+        //            var ntfc = new Notification()
+        //            {
+        //                Id = Guid.NewGuid().ToString(),
+        //                Date = requestDate,
+        //                IsRead = true,
+        //                FromUser = user,
+        //                FromUserId = user.Id,
+        //                ToUser = friendToSendRequest,
+        //                ToUserId = friendToSendRequest.Id,
+        //                Message = NotificationType.GetNewFriendRequestMessage(user.UserName),
+        //            };
+
+        //            await _notificationService.AddAsync(ntfc);
+
+        //            var friendShip = new Friendship()
+        //            {
+        //                FriendshipId = Guid.NewGuid().ToString(),
+
+        //                FriendId = fr.ReceiverId,
+
+        //                UserId = fr.SenderId
+        //            };
+
+        //            await _friendshipService.AddFriendship(friendShip);
+
+        //            var ntfc2 = new Notification()
+        //            {
+        //                Id = Guid.NewGuid().ToString(),
+        //                Date = requestDate.AddDays(random.Next(35)),
+        //                IsRead = true,
+        //                Message = NotificationType.GetFriendRequestAcceptedMessage(friendToSendRequest.UserName),
+        //                FromUser = friendToSendRequest,
+        //                FromUserId = friendToSendRequest.Id,
+        //                ToUser = user,
+        //                ToUserId = user.Id
+        //            };
+
+        //            await _notificationService.AddAsync(ntfc2);
+        //        }
+
+        //        for (int i = 0; i < pendingRequestCount; i++)
+        //        {
+        //            var friendToSendRequest = users[i + friendCount];
+
+        //            var requestDate = GenerateRandomDate(new DateTime(2023, 1, 1));
+
+        //            var fr = new FriendRequest()
+        //            {
+        //                Id = Guid.NewGuid().ToString(),
+        //                SenderId = user.Id,
+        //                ReceiverId = friendToSendRequest.Id,
+        //                RequestDate = requestDate,
+        //                Status = Status.Pending,
+        //            };
+
+        //            await _friendRequestService.AddAsync(fr);
+
+        //            var ntfc = new Notification()
+        //            {
+        //                Id = Guid.NewGuid().ToString(),
+        //                Date = requestDate,
+        //                IsRead = true,
+        //                Message = NotificationType.GetNewFriendRequestMessage(user.UserName),
+        //                FromUser = user,
+        //                FromUserId = user.Id,
+        //                ToUser = friendToSendRequest,
+        //                ToUserId = friendToSendRequest.Id
+        //            };
+
+        //            await _notificationService.AddAsync(ntfc);
+        //        }
+        //    }
+        //}
+
+        //private static DateTime GenerateRandomDate(DateTime startDate)
+        //{
+        //    DateTime endDate = DateTime.Today;
+        //    Random random = new Random();
+        //    int range = (endDate - startDate).Days;
+
+        //    return startDate.AddDays(random.Next(range));
+        //}
